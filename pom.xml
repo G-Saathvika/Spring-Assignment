@@ -172,7 +172,7 @@
 		<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
 		<sonar.sources>src/main/java</sonar.sources>
 		<sonar.language>java</sonar.language>
-
+		<sonar.coverage.exclusions>**/com/springboot/demo/studentcourse/entity/**</sonar.coverage.exclusions>
 		<sonar.exclusions>
 			**/com/springboot/demo/studentcourse/repository/**,
 			**/com/springboot/demo/studentcourse/config/**,
