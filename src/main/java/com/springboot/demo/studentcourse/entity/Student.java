@@ -1,7 +1,7 @@
-package com.springboot.demo.studentcourse.enity;
+package com.springboot.demo.studentcourse.entity;
 
 import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

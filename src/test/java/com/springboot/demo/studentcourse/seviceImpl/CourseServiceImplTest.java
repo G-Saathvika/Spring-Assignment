@@ -1,7 +1,7 @@
 package com.springboot.demo.studentcourse.seviceImpl;
 
 
-import com.springboot.demo.studentcourse.enity.Course;
+import com.springboot.demo.studentcourse.entity.Course;
 import com.springboot.demo.studentcourse.repository.CourseRepository;
 import org.assertj.core.api.Assertions;
 import org.assertj.core.api.Java6Assertions;

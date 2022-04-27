@@ -1,6 +1,6 @@
 package com.springboot.demo.studentcourse.service;
 
-import com.springboot.demo.studentcourse.enity.Student;
+import com.springboot.demo.studentcourse.entity.Student;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

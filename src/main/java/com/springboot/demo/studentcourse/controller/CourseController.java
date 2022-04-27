@@ -1,7 +1,6 @@
 package com.springboot.demo.studentcourse.controller;
 
-import com.springboot.demo.studentcourse.enity.Course;
-import com.springboot.demo.studentcourse.exception.CourseException;
+import com.springboot.demo.studentcourse.entity.Course;
 import com.springboot.demo.studentcourse.service.CourseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.StringTrimmerEditor;

@@ -1,6 +1,6 @@
 package com.springboot.demo.studentcourse.service;
 
-import com.springboot.demo.studentcourse.enity.Course;
+import com.springboot.demo.studentcourse.entity.Course;
 
 import java.util.List;
 

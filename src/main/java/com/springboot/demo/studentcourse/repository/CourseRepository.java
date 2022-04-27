@@ -1,6 +1,6 @@
 package com.springboot.demo.studentcourse.repository;
 
-import com.springboot.demo.studentcourse.enity.Course;
+import com.springboot.demo.studentcourse.entity.Course;
 import org.springframework.data.repository.CrudRepository;
 
 

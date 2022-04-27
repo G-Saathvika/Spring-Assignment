@@ -1,6 +1,6 @@
 package com.springboot.demo.studentcourse.seviceImpl;
 
-import com.springboot.demo.studentcourse.enity.Course;
+import com.springboot.demo.studentcourse.entity.Course;
 import com.springboot.demo.studentcourse.repository.CourseRepository;
 import com.springboot.demo.studentcourse.service.CourseService;
 import org.springframework.beans.factory.annotation.Autowired;

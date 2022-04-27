@@ -1,6 +1,6 @@
 package com.springboot.demo.studentcourse.dto;
 
-import com.springboot.demo.studentcourse.enity.Course;
+import com.springboot.demo.studentcourse.entity.Course;
 import lombok.Data;
 
 import java.util.List;

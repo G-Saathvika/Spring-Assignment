@@ -1,8 +1,8 @@
 package com.springboot.demo.studentcourse.controller;
 
 import com.springboot.demo.studentcourse.dto.StudentDTO;
-import com.springboot.demo.studentcourse.enity.Course;
-import com.springboot.demo.studentcourse.enity.Student;
+import com.springboot.demo.studentcourse.entity.Course;
+import com.springboot.demo.studentcourse.entity.Student;
 import com.springboot.demo.studentcourse.service.CourseService;
 import com.springboot.demo.studentcourse.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +15,6 @@ import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.List;
-import java.util.stream.Collectors;
 
 import org.modelmapper.ModelMapper;
 
