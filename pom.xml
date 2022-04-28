@@ -173,6 +173,13 @@
 		<sonar.sources>src/main/java</sonar.sources>
 		<sonar.language>java</sonar.language>
 		<sonar.coverage.exclusions>**/com/springboot/demo/studentcourse/entity/**</sonar.coverage.exclusions>
+		<sonar.coverage.exclusions>**/com/springboot/demo/studentcourse/repository/**</sonar.coverage.exclusions>
+		<sonar.coverage.exclusions>**/com/springboot/demo/studentcourse/config/**</sonar.coverage.exclusions>
+		<sonar.coverage.exclusions>**/com/springboot/demo/studentcourse/controller/**</sonar.coverage.exclusions>
+		<sonar.coverage.exclusions>**/com/springboot/demo/studentcourse/dto/**</sonar.coverage.exclusions>
+		<sonar.coverage.exclusions>**/com/springboot/demo/studentcourse/StudentcourseApplication**</sonar.coverage.exclusions>
+		<sonar.coverage.exclusions>**/com/springboot/demo/studentcourse/exception/**</sonar.coverage.exclusions>
+		<sonar.coverage.exclusions>**/com/springboot/demo/studentcourse/service/**</sonar.coverage.exclusions>
 		<sonar.exclusions>
 			**/com/springboot/demo/studentcourse/repository/**,
 			**/com/springboot/demo/studentcourse/config/**,
@@ -180,7 +187,7 @@
 			**/com/springboot/demo/studentcourse/dto/**,
 			**/com/springboot/demo/studentcourse/entity/**,
 			**/com/springboot/demo/studentcourse/StudentcourseApplication**,
-			**/com/springboot/demo/studentcourse/exception/**
+			**/com/springboot/demo/studentcourse/exception/**,
 			**/com/springboot/demo/studentcourse/service/**
 		</sonar.exclusions>
 
