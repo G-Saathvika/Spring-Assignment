@@ -1,12 +1,14 @@
 package com.springboot.demo.studentcourse.seviceImpl;
 
 import com.springboot.demo.studentcourse.entity.Course;
+import com.springboot.demo.studentcourse.entity.Student;
 import com.springboot.demo.studentcourse.repository.CourseRepository;
 import com.springboot.demo.studentcourse.service.CourseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class CourseServiceImpl implements CourseService {
@@ -21,7 +23,10 @@ public class CourseServiceImpl implements CourseService {
 
     @Override
     public Course findById(int id) {
-        return courseRepository.findById(id).get();
+//
+//        return courseRepository.findById(id).get();
+        Optional<Course> course = courseRepository.findById(id);
+        return course.orElse(null);
     }
 
     @Override
